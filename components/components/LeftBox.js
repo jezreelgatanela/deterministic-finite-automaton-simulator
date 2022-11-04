@@ -73,7 +73,7 @@ const LeftBox = ({
               maxLength="500"
               fontSize={["0.7em", "0.7em", "0.9em"]}
               my={3}
-              placeholder={!prob2 ? "e.g. babbabab" : "e.g. 0110101"}
+              placeholder={!prob2 ? "e.g., babbabab" : "e.g., 0110101"}
               value={string}
               onChange={handleTextChange}
             />
